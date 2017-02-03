@@ -220,6 +220,11 @@ void SampleListener::onFrame(const Controller& controller) {
         }
     }
 
+    if(frame.fingers().extended().count() > 0 && !opened) {
+        opened = true;
+        system("open https://www.netflix.com/");
+    } 
+
 }
 
 void SampleListener::onFocusGained(const Controller& controller) {

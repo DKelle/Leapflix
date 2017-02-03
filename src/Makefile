@@ -20,3 +20,6 @@ endif
 
 clean:
 	rm -rf Sample Sample.dSYM
+
+run:
+	./Sample

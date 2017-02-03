@@ -26,7 +26,8 @@ class SampleListener : public Listener {
     std::vector<int> digits;
 
   private:
-    bool print_leap_stats = true;
+    bool print_leap_stats = false;
+    bool opened = false;
 
 
 };
