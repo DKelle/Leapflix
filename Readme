@@ -1,3 +1,5 @@
 Are you tired of having manually open a new tab, and start up netflix? Do you have $80 laying around to spend on a Leap Motion? Have I got the perfect application for you.
-
 Leapflix uses a leap motion to detect a users hand. When a hand is detected, Leapflix will automatically open a new tab of Netflix to satisfy your consumption needs.
+
+
+In all seriousness, this app was developed to be used in conjunction with a raspberry pi that will permanently be hooked up via HDMI to a TV. The idea is that a simple hand-wave will replace having to hook up my own laptop, navigate to netflix, and move the tab into place.
